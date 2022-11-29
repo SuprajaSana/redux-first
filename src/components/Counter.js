@@ -17,11 +17,11 @@ const Counter = () => {
   }
 
   const incrementbyfiveHandler = () => {
-    dispatch({type:'incrementbyfive'})
+    dispatch({type:'incrementbyfive',amount:5})
   }
 
   const decrementbyfiveHandler = () => {
-    dispatch({type:'decrementbyfive'})
+    dispatch({type:'decrementbyfive',amount:5})
   }
 
   const toggleCounterHandler = () => {};
